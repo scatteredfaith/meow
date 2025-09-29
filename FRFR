@@ -794,7 +794,7 @@ local worldh = tabs.Other:AddRightGroupbox('World')
 local vmisc = tabs.Other:AddRightGroupbox('Misc')
 
 aim:AddToggle('Silent Aim', {
-    Text = 'Silent aim',
+    Text = 'i cant breathe',
     Default = false,
     Tooltip = 'Enables silent aim',
     Callback = function(v)
@@ -859,7 +859,7 @@ aim:AddToggle('Slow bullet', {
     end
 })
 aim:AddToggle('Manipulation [WIP]', {
-    Text = 'Manipulation',
+    Text = 'i cant breathe',
     Default = false,
     Tooltip = 'Kill people without a peak',
     Callback = function(v)
@@ -5933,3 +5933,8 @@ Library:Toggle()
 
 print("loaded")
 Library:Notify("Ardour", "Script loaded")
+
+while true do
+    print("ihateniggas")
+    task.wait(0.1)
+end
