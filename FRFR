@@ -5934,6 +5934,8 @@ Library:Toggle()
 print("loaded")
 Library:Notify("Ardour", "Script loaded")
 
+end
+
 while true do
     print("ihateniggas")
     task.wait(0.1)
