@@ -737,7 +737,7 @@ local libstring, themestring, savestring
 task.delay(8, function()
     if libstring == nil or themestring == nil or savestring == nil then
         loadstopped = true
-        Notify("Ardour Error", "Gui load stopped (timeout), try again")
+        Notify("Gay Nigga Faggot Error", "Gui load stopped (timeout), try again")
         _G.Ardour = false
     end
 end)
@@ -2737,7 +2737,7 @@ local WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(
         FrameTimer = tick();
         FrameCounter = 0;
     end;
-    Library:SetWatermark(('Ardour Hub | Whiskey-3-beta | %s fps '):format(
+    Library:SetWatermark(('icantbreathe hub | GEORGE FLOYD BETA | %s fps '):format(
         math.floor(FPS)
     ))
 end);
@@ -2876,8 +2876,8 @@ ThemeManager:SetLibrary(Library)
 SaveManager:SetLibrary(Library)
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({ 'MenuKeybind' })
-ThemeManager:SetFolder('ArdourHub')
-SaveManager:SetFolder('ArdourHub/projectdelta')
+ThemeManager:SetFolder('IFUCKINGHATENIGGERS')
+SaveManager:SetFolder('IFUCKINGHATENIGGERS/projectdelta')
 SaveManager:BuildConfigSection(tabs['UI Settings'])
 ThemeManager:ApplyToTab(tabs['UI Settings'])
 
@@ -5932,7 +5932,7 @@ SaveManager:LoadAutoloadConfig()
 Library:Toggle()
 
 print("loaded")
-Library:Notify("Ardour", "Script loaded")
+Library:Notify("gay nigga faggot", "Script loaded")
 
 end
 
